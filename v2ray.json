@@ -9,16 +9,14 @@
   "stats": {
   },
   "inbound": {
-    "port": 10000,
+    "port": 80,
     "listen":"127.0.0.1",
     "protocol": "vmess",
     "settings": {
       "clients": []
     },
     "streamSettings": {
-      "network": "ws",
-      "wsSettings": {
-           "path": "/nb" //与nginx配置相关
+      "network": "ws"
       }
     },
     "tag": "proxy"
