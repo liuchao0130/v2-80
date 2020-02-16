@@ -15,7 +15,10 @@
       "clients": []
     },
     "streamSettings": {
-      "network": "ws"
+      "network": "ws",
+       "wsSettings": {   
+          "path": "/love"       
+        }
     },
     "tag": "proxy"
   },
